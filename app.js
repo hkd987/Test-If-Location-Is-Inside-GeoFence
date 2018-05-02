@@ -30,4 +30,10 @@ const distanceBetween = (point1, point2) => {
 // { center: { latitude: 30.0000, longitude: -95.0000 }, radius: 800 }
 const HOLLEMAN = pointInsideCircle({ latitude: 30.066804, longitude: -95.924552 }, {center: { latitude: 30.0672, longitude: -95.9239 }, radius: 115})
 const TECH_OFFICE = pointInsideCircle({ latitude: 30.064114, longitude: -95.926684 }, {center: { latitude: 30.063547, longitude: -95.926245 }, radius: 75})
-console.log(TECH_OFFICE)
+const WALLER_JR_HIGH = pointInsideCircle({ latitude: 30.063013, longitude: -95.925098 }, {center: { latitude: 30.063091, longitude: -95.925915 }, radius: 70})
+const WALLER_JR_HIGH_2 = pointInsideCircle({ latitude: 30.063013, longitude: -95.925098 }, {center: { latitude: 30.063128, longitude: -95.924069 }, radius: 70})
+const WALLER_JR_HIGH_3 = pointInsideCircle({ latitude: 30.062141, longitude: -95.924790 }, {center: { latitude: 30.063013, longitude: -95.925098 }, radius: 70})
+const WALLER_HIGH = pointInsideCircle({ latitude: 30.076348, longitude: -95.921442 }, {center: { latitude: 30.078697, longitude: -95.920345 }, radius: 275})
+const SHULTZ_JR_HIGH = pointInsideCircle({ latitude: 30.059150, longitude: -95.909603 }, {center: { latitude: 30.057819, longitude: -95.910033 }, radius: 150})
+const JES = pointInsideCircle({ latitude: 30.086282, longitude: -95.979531 }, {center: { latitude: 30.085986, longitude: -95.978776 }, radius: 175})
+console.log(JES)
